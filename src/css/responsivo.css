@@ -1,0 +1,130 @@
+@media (max-width: 1200px) {
+    
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+}
+
+.container .f1car {
+    max-width: 80%;
+    position: right;
+    
+}
+
+.container .informacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .descricao {
+    color: white;
+    text-align: center;
+}
+
+.container .botao-video {
+        background-color: rgb(0, 0, 0);
+
+}
+
+.container .botao-link {
+    background-color: rgb(229, 255, 0);
+    color: rgb(3, 49, 3);
+}
+
+.container2 {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        gap: 5px;
+    }
+    
+    .container2 .legends{
+        max-width: 80%;
+        max-height: 95%;
+        gap: 1px;
+    }
+
+    
+    .container2 nav li {
+        color: rgb(255, 255, 255);
+        
+        font-size: 80%;
+    }
+    
+    .container2 h2 {
+        color: rgb(255, 255, 255);
+        font-size: 80%;
+    
+    }
+}
+
+@media (max-width: 500px) {
+        
+        .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+        .container2 {
+            display: flex;
+            justify-content: center;
+            height: auto;
+            gap: 5px;
+        }
+        
+        .container2 .legends{
+            max-width: 80%;
+            max-height: 95%;
+            gap: 1px;
+        }
+    
+        
+        .container2 nav li {
+            color: rgb(255, 255, 255);
+            
+            font-size: 8px;
+        }
+        
+        .container2 h2 {
+            color: rgb(255, 255, 255);
+            font-size: 8px;
+        }
+    }
+
+    @media (max-width: 350px) {
+        
+        .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7px;
+    }
+        .container2 {
+            display: flex;
+            justify-content: center;
+            height: auto;
+            gap: 4px;
+        }
+        
+        .container2 .legends{
+            max-width: 80%;
+            max-height: 95%;
+            gap: 1px;
+        
+        }
+    
+        
+        .container2 nav li {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 8px;
+        }
+        
+        .container2 h2 {
+            color: rgb(255, 255, 255);
+            font-size: 8px;
+            text-align: center;
+        }
+    }
