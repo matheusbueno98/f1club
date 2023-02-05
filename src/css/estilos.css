@@ -8,44 +8,44 @@ body{
 
 .cabecalho{
     background-color: rgb(0, 0, 0);
-    display: flex; /*lado a lado*/
-    justify-content: space-between; /*espaço entre os itens*/
-    padding: 30px; /*espaço dos cantos*/
+    display: flex; 
+    justify-content: space-between; 
+    padding: 30px; 
     max-width: 1440px;
     margin: 0 auto;
 }
 
 .cabecalho .logo {
-    width: 181px; /*Largura, porém reajustei a imagem antes para deixá-lo mais leve*/
+    width: 181px;
 }
 
 .cabecalho .menu {
     font-family: Impact, Haettenschweiler, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: flex; /*lado a lado*/
+    display: flex; 
     align-items: center;
-    height: 100%; /* altura, alinhado/centralizado verticalmente em relação ao HEADER*/
+    height: 100%; 
 }
 
 .cabecalho nav li a {
     font-size: 23px;
     font-weight: 25px;
     color: white;
-    padding: 10px 10px; /* altura e largura*/
+    padding: 10px 10px; 
     border-radius: 2px;
-    transition: 0.42s; /* velocidade de interações = suavidade de layout*/
+    transition: 0.42s; 
 }
 
 .cabecalho nav li a:hover {
     background-color: rgb(161, 40, 40);
 }
 
-/*CABEÇALHO ACIMA / CORPO ABAIXO*/
+
 
 .container {
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0,0,0,0.8743872549019608) 50%, rgba(255,40,40,1) 100%);
     max-width: 1440px;
     margin: 0 auto;
-    display: flex; /*itens container lado a lado*/
+    display: flex; 
     align-items: center;
     height: calc(100vh - 164.55px);
     padding: 20px 30px 30px;
@@ -110,9 +110,9 @@ body{
 
 .container2{
     background: linear-gradient(270deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8743872549019608) 18%, rgba(255,40,40,1) 100%);
-    display: flex; /*lado a lado*/
-    justify-content: space-between; /*espaço entre os itens*/
-    padding: 30px; /*espaço dos cantos*/
+    display: flex; 
+    justify-content: space-between; 
+    padding: 30px; 
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -135,6 +135,6 @@ body{
     font-size: 23px;
     font-weight: 25px;
     color: rgb(255, 255, 255);
-    padding: 10px 10px; /* altura e largura*/
+    padding: 10px 10px; 
     border-radius: 2px;
-    transition: 0.42s; /* velocidade de interações = suavidade de layout*/}
+    transition: 0.42s; 
